@@ -1,0 +1,282 @@
+:root {  
+    /* === ICONOS DEL HEADER === */
+    --icon-cart: var(--color-gray-600);
+    --icon-cart-hover: var(--color-tertiary);
+    --icon-user: var(--color-quaternary);
+    --icon-user-hover: var(--color-tertiary);
+    --icon-menu: var(--color-gray-700);
+    --icon-menu-hover: var(--color-tertiary);
+    --icon-dropdown: var(--color-gray-500);
+    --icon-dropdown-hover: var(--color-tertiary);
+    --icon-loading: var(--color-gray-600);
+    --icon-admin: #ff6b35;
+    --icon-admin-hover: #e55a2e;
+    --icon-logout: var(--color-error);
+    --icon-logout-hover: var(--color-error);
+    --icon-settings: var(--color-gray-600);
+    --icon-settings-hover: var(--color-tertiary);
+    --icon-orders: var(--color-gray-600);
+    --icon-orders-hover: var(--color-tertiary);
+    
+    /* === ICONOS DE PRODUCTOS === */
+    --icon-view: var(--color-gray-700);
+    --icon-view-hover: var(--color-secondary-dark);
+    --icon-add-cart: var(--color-white);
+    --icon-add-cart-hover: var(--color-gray-400);
+    --icon-add-cart-disabled: var(--color-gray-400);
+    
+    /* === ICONOS DEL CARRITO === */
+    --icon-close: var(--color-gray-500);
+    --icon-close-hover: var(--color-gray-700);
+    --icon-warning: var(--color-warning);
+    --icon-error: var(--color-error);
+    --icon-retry: var(--color-gray-600);
+    --icon-retry-hover: var(--color-tertiary);
+    --icon-shop: var(--color-white);
+    --icon-shop-hover: var(--color-white);
+    --icon-login: var(--color-white);
+    --icon-login-hover: var(--color-white);
+    --icon-plus: var(--color-gray-600);
+    --icon-plus-hover: var(--color-success);
+    --icon-minus: var(--color-gray-600);
+    --icon-minus-hover: var(--color-error);
+    --icon-trash: var(--color-error);
+    --icon-trash-hover: var(--color-error);
+    --icon-checkout: var(--color-white);
+    --icon-checkout-hover: var(--color-white);
+    
+    /* === ICONOS DEL FOOTER === */
+    --icon-footer-brand: var(--color-primary);
+    --icon-footer-brand-hover: var(--color-primary-light);
+    --icon-footer-contact: var(--color-gray-200);
+    --icon-footer-contact-hover: var(--color-primary);
+    
+    /* === ICONOS DE NOTIFICACIONES === */
+    --icon-notification-success: #10b981;
+    --icon-notification-error: #ef4444;
+    --icon-notification-warning: #f59e0b;
+    --icon-notification-info: #3b82f6;
+    --icon-notification-close: var(--color-gray-400);
+    --icon-notification-close-hover: var(--color-gray-600);
+    
+    /* === ICONOS DE MODALES LOGIN Y REGISTER=== */
+    --icon-modal-close: var(--color-gray-500);
+    --icon-modal-close-hover: var(--color-gray-700);
+    
+    /* === ICONOS DE HOME === */
+    --icon-home-hero: var(--color-primary);
+    --icon-home-feature: var(--color-tertiary);
+    --icon-home-feature-hover: var(--color-primary);
+    --icon-home-arrow: var(--color-tertiary);
+    --icon-home-arrow-hover: var(--color-white);
+    
+    /* === ICONOS DE SHOP === */
+    --icon-shop-header: var(--color-tertiary);
+    --icon-shop-search: var(--color-gray-500);
+    --icon-shop-search-focus: var(--color-tertiary);
+    --icon-shop-loading: var(--color-gray-600);
+    --icon-shop-empty: var(--color-gray-400);
+    --icon-shop-no-results: var(--color-gray-500);
+    
+    /* === ICONOS DE SETTINGS === */
+    --icon-settings-header: var(--color-quaternary);
+    --icon-settings-prefs: var(--color-tertiary);
+    --icon-settings-notifications: var(--color-warning);
+    --icon-settings-email: var(--color-tertiary);
+    --icon-settings-close: var(--color-gray-500);
+    --icon-settings-close-hover: var(--color-gray-700);
+    
+    /* === ICONOS DE PEDIDOS === */
+    --icon-orders-header: var(--color-tertiary);
+    --icon-orders-loading: var(--color-primary);
+    --icon-orders-empty: var(--color-gray-400);
+    --icon-orders-payment: var(--color-tertiary);
+    --icon-orders-close: var(--color-gray-500);
+    --icon-orders-close-hover: var(--color-gray-700);
+    --icon-orders-prev: var(--color-gray-600);
+    --icon-orders-next: var(--color-gray-600);
+    --icon-orders-prev-hover: var(--color-primary);
+    --icon-orders-next-hover: var(--color-primary);
+    
+    /* === ICONOS DE RESET PASSWORD === */
+    --icon-reset-brand: var(--color-tertiary);
+    --icon-reset-error: var(--color-error);
+    --icon-reset-warning: var(--color-warning);
+    --icon-reset-loading: var(--color-primary);
+    --icon-reset-lock: var(--color-warning);
+    --icon-reset-success: var(--color-success);
+    --icon-reset-home: var(--color-tertiary);
+    
+    /* === ICONOS DE PROFILE === */
+    --icon-profile-camera: var(--color-white);
+    --icon-profile-edit: var(--color-tertiary);
+    --icon-profile-verified: var(--color-success);
+    --icon-profile-admin: var(--color-warning);
+    --icon-profile-member: var(--color-tertiary);
+    --icon-profile-save: var(--color-primary);
+    --icon-profile-lock: var(--color-tertiary);
+    --icon-profile-email: var(--color-tertiary);
+    --icon-profile-save-hover: var(--color-primary-dark);
+    --icon-profile-edit-hover: var(--color-tertiary-dark);
+    --icon-profile-btn-lock: var(--color-tertiary);
+    --icon-profile-btn-email: var(--color-white);
+    
+    /* === ICONOS DE PRODUCT DETAIL === */
+    --icon-product-loading: var(--color-primary);
+    --icon-product-cart: var(--color-white);
+    --icon-product-back: var(--color-gray-600);
+    --icon-product-back-hover: var(--color-primary);
+    --icon-product-plus: var(--color-gray-600);
+    --icon-product-minus: var(--color-gray-600);
+    --icon-product-plus-hover: var(--color-primary);
+    --icon-product-minus-hover: var(--color-primary);
+    
+    /* === ICONOS DE ADMIN DASHBOARD === */
+    --icon-admin-tools: var(--color-admin-tools);
+    --icon-admin-products: var(--color-admin-products);
+    --icon-admin-orders: var(--color-admin-orders);
+    --icon-admin-revenue: var(--color-admin-revenue);
+    --icon-admin-users: var(--color-admin-users);
+    --icon-admin-payments: var(--color-admin-payments);
+    --icon-admin-pending: var(--color-admin-pending);
+    --icon-admin-refunds: var(--color-admin-refunds);
+    --icon-admin-analytics: var(--color-admin-analytics);
+    --icon-admin-alerts: var(--color-admin-alerts);
+    --icon-admin-clock: var(--color-admin-clock);
+    --icon-admin-chart: var(--color-admin-chart);
+    --icon-admin-cart: var(--color-admin-cart);
+    --icon-admin-action: var(--color-white);
+    
+    /* === ICONOS DE ADMIN PRODUCTS === */
+    --icon-admin-products-header: var(--color-admin-products);
+    --icon-admin-products-add: var(--color-white);
+    --icon-admin-products-search: var(--color-gray-500);
+    --icon-admin-products-loading: var(--color-admin-products);
+    --icon-admin-products-edit: var(--color-admin-products);
+    --icon-admin-products-delete: var(--color-admin-refunds);
+    --icon-admin-products-empty: var(--color-gray-400);
+    --icon-admin-products-camera: var(--color-gray-600);
+    --icon-admin-products-close: var(--color-gray-500);
+    --icon-admin-products-close-hover: var(--color-gray-700);
+    --icon-admin-products-plus: var(--color-admin-products);
+    
+    /* === ICONOS DE ADMIN ORDERS === */
+    --icon-admin-orders-header: var(--color-admin-orders);
+    --icon-admin-orders-back: var(--color-gray-600);
+    --icon-admin-orders-back-hover: var(--color-admin-orders);
+    --icon-admin-orders-loading: var(--color-admin-orders);
+    --icon-admin-orders-view: var(--color-admin-orders);
+    --icon-admin-orders-refund: var(--color-admin-refunds);
+    --icon-admin-orders-payment: var(--color-admin-payments);
+    --icon-admin-orders-empty: var(--color-gray-400);
+    --icon-admin-orders-close: var(--color-gray-500);
+    --icon-admin-orders-close-hover: var(--color-gray-700);
+    
+    /* === ICONOS DE ADMIN USERS === */
+    --icon-admin-users-header: var(--color-admin-users);
+    --icon-admin-users-export: var(--color-white);
+    --icon-admin-users-back: var(--color-gray-600);
+    --icon-admin-users-back-hover: var(--color-admin-users);
+    --icon-admin-users-loading: var(--color-admin-users);
+    --icon-admin-users-empty: var(--color-gray-400);
+    
+    /* === ICONOS DE ADMIN ANALYTICS === */
+    --icon-admin-analytics-header: var(--color-admin-analytics);
+    --icon-admin-analytics-back: var(--color-gray-600);
+    --icon-admin-analytics-back-hover: var(--color-admin-analytics);
+    --icon-admin-analytics-chart: var(--color-admin-chart);
+    --icon-admin-analytics-sales: var(--color-admin-revenue);
+    --icon-admin-analytics-revenue: var(--color-admin-revenue);
+    --icon-admin-analytics-users: var(--color-admin-users);
+    --icon-admin-analytics-products: var(--color-admin-products);
+    --icon-admin-analytics-globe: var(--color-admin-analytics);
+    --icon-admin-analytics-calendar: var(--color-admin-pending);
+    --icon-admin-analytics-products-btn: var(--color-white);
+    --icon-admin-analytics-orders-btn: var(--color-admin-orders);
+    
+    /* === ICONOS DE CART === */
+    --icon-cart-header: var(--color-primary);
+    --icon-cart-empty: var(--color-gray-400);
+    --icon-cart-shop-btn: var(--color-white);
+    --icon-cart-clear-btn: var(--color-gray-600);
+    --icon-cart-continue-btn: var(--color-white);
+    --icon-cart-checkout-btn: var(--color-white);
+    --icon-cart-remove: var(--color-danger);
+    --icon-cart-remove-hover: var(--color-white);
+    --icon-cart-quantity-minus: var(--color-gray-600);
+    --icon-cart-quantity-plus: var(--color-gray-600);
+    --icon-cart-quantity-disabled: var(--color-gray-400);
+    --icon-cart-shipping-notice: var(--color-info);
+    
+    /* === ICONOS DE CHECKOUT === */
+    --icon-checkout-header: var(--color-primary);
+    --icon-checkout-empty: var(--color-gray-400);
+    --icon-checkout-shop-btn: var(--color-white);
+    --icon-checkout-shipping: var(--color-primary);
+    --icon-checkout-payment: var(--color-primary);
+    --icon-checkout-notes: var(--color-primary);
+    --icon-checkout-back: var(--color-gray-600);
+    --icon-checkout-back-hover: var(--color-primary);
+    --icon-checkout-pay-btn: var(--color-white);
+    --icon-checkout-bank: var(--color-success);
+    --icon-checkout-secure: var(--color-success);
+    --icon-checkout-card: var(--color-primary);
+    --icon-checkout-lightning: var(--color-warning);
+    --icon-checkout-summary: var(--color-primary);
+    --icon-checkout-security: var(--color-success);
+    --icon-checkout-truck: var(--color-info);
+    --icon-checkout-return: var(--color-warning);
+    
+    /* === ICONOS DE PAYMENT SUCCESS === */
+    --icon-payment-success-check: var(--color-white);
+    --icon-payment-success-email: var(--color-info);
+    --icon-payment-success-box: var(--color-primary);
+    --icon-payment-success-phone: var(--color-success);
+    --icon-payment-success-list: var(--color-primary);
+    --icon-payment-success-continue-btn: var(--color-white);
+    --icon-payment-success-orders-btn: var(--color-gray-600);
+    --icon-payment-success-orders-btn-hover: var(--color-primary);
+    --icon-payment-success-support-email: var(--color-info);
+    --icon-payment-success-support-phone: var(--color-success);
+    
+    /* === ICONOS DE PAYMENT PROCESSING === */
+    --icon-payment-processing-spinner: var(--color-primary);
+    --icon-payment-processing-error: var(--color-danger);
+    --icon-payment-processing-retry-btn: var(--color-white);
+    --icon-payment-processing-back-btn: var(--color-gray-600);
+    --icon-payment-processing-redirect: var(--color-info);
+    
+    /* === ICONOS DE PAYMENT RETURN === */
+    --icon-payment-return-spinner: var(--color-primary);
+    --icon-payment-return-error: var(--color-danger);
+    --icon-payment-return-retry-btn: var(--color-white);
+    --icon-payment-return-back-btn: var(--color-gray-600);
+    --icon-payment-return-processing: var(--color-info);
+    
+    /* === ICONOS DE PAYMENT ERROR === */
+    --icon-payment-error-symbol: var(--color-white);
+    --icon-payment-error-card: var(--color-danger);
+    --icon-payment-error-money: var(--color-danger);
+    --icon-payment-error-lock: var(--color-danger);
+    --icon-payment-error-globe: var(--color-danger);
+    --icon-payment-error-time: var(--color-danger);
+    --icon-payment-error-retry-btn: var(--color-white);
+    --icon-payment-error-checkout-btn: var(--color-gray-600);
+    --icon-payment-error-cart-btn: var(--color-white);
+    --icon-payment-error-support-email: var(--color-info);
+    --icon-payment-error-support-phone: var(--color-success);
+    --icon-payment-error-chat: var(--color-primary);
+    --icon-payment-error-search: var(--color-info);
+    --icon-payment-error-card-alt: var(--color-primary);
+    --icon-payment-error-refresh: var(--color-warning);
+    --icon-payment-error-mobile: var(--color-info);
+    
+    /* === ICONOS DE EMAIL VERIFICATION === */
+    --icon-email-verification-check: var(--color-info);
+    --icon-email-verification-spinner: var(--color-primary);
+    --icon-email-verification-success: var(--color-white);
+    --icon-email-verification-error: var(--color-white);
+    --icon-email-verification-home-btn: var(--color-white);
+    --icon-email-verification-home-btn-outline: var(--color-tertiary);
+    --icon-email-verification-home-btn-outline-hover: var(--color-white);
+}  

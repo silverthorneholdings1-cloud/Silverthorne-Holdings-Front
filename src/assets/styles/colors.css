@@ -1,0 +1,51 @@
+:root {
+    /* === PALETA DE COLORES === */
+    --color-primary: #DDEB9D;      /* Verde claro - Principal */
+    --color-secondary: #A0C878;    /* Verde medio - Secundario */
+    --color-tertiary: #27667B;     /* Azul verdoso - Terciario */
+    --color-quaternary: #143D60;   /* Azul oscuro - Cuarto */
+    
+    /* === VARIACIONES DE COLORES === */
+    --color-primary-dark: #c5d084;
+    --color-primary-light: #e8f0b5;
+    --color-secondary-dark: #8db865;
+    --color-secondary-light: #b3d38b;
+    --color-tertiary-dark: #1e4f5f;
+    --color-tertiary-light: #3a7a94;
+    --color-quaternary-dark: #0f2a44;
+    --color-quaternary-light: #1a4d7a;
+    
+    /* === COLORES DE ESTADO === */
+    --color-success: #28a745;
+    --color-warning: #ffc107;
+    --color-error: #dc3545;
+    --color-info: var(--color-tertiary);
+    
+    /* === COLORES DE ADMIN DASHBOARD === */
+    --color-admin-tools: #6366f1;          /* Indigo - Herramientas */
+    --color-admin-products: #10b981;       /* Emerald - Productos */
+    --color-admin-orders: #f59e0b;         /* Amber - Órdenes */
+    --color-admin-revenue: #059669;        /* Green - Ingresos */
+    --color-admin-users: #8b5cf6;          /* Violet - Usuarios */
+    --color-admin-payments: #06b6d4;       /* Cyan - Pagos */
+    --color-admin-pending: #f97316;        /* Orange - Pendientes */
+    --color-admin-refunds: #ef4444;        /* Red - Reembolsos */
+    --color-admin-analytics: #3b82f6;      /* Blue - Analytics */
+    --color-admin-alerts: #dc2626;         /* Red - Alertas */
+    --color-admin-clock: #f59e0b;          /* Amber - Reloj */
+    --color-admin-chart: #7c3aed;          /* Purple - Gráficos */
+    --color-admin-cart: #059669;           /* Green - Carrito */
+  
+    /* === COLORES NEUTROS === */
+    --color-white: #ffffff;
+    --color-gray-100: #f8f9fa;
+    --color-gray-200: #e9ecef;
+    --color-gray-300: #dee2e6;
+    --color-gray-400: #ced4da;
+    --color-gray-500: #6c757d;
+    --color-gray-600: #495057;
+    --color-gray-700: #343a40;
+    --color-gray-800: #212529;
+    --color-gray-900: #0d0e10;
+    --color-black: #000000;
+}
