@@ -214,6 +214,7 @@ const emit = defineEmits(['update:show', 'close', 'submit', 'add-category', 'del
 
 const selectedImage = ref(null)
 const imagePreviewUrl = ref('')
+const fileInputRef = ref(null)
 
 const updateField = (field, value) => {
   emit('update:productForm', {
