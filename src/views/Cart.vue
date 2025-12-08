@@ -88,11 +88,6 @@
               <span v-else>${{ formatCLP(25) }}</span>
             </div>
             
-            <div class="summary-line">
-              <span>Impuestos</span>
-              <span>${{ formatCLP(tax) }}</span>
-            </div>
-            
             <hr>
             
             <div class="summary-line total">
@@ -129,9 +124,8 @@ const cartStore = useCartStore()
 const { cartItems, cartTotal, cartItemCount } = storeToRefs(cartStore)
 
 // Computed properties
-const tax = computed(() => cartTotal.value * 0.08) // 8% tax
 const shipping = computed(() => cartTotal.value >= 500 ? 0 : 25)
-const finalTotal = computed(() => cartTotal.value + tax.value + shipping.value)
+const finalTotal = computed(() => cartTotal.value + shipping.value)
 
 // Methods
 const removeFromCart = async (productId) => {
